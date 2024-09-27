@@ -4,8 +4,8 @@
     --colourthree: #5B8EC9;
     --colourfour: #E340C9;
     --colourfive: #020408;
-    --coloursix: #A32651;
-    --colourseven: #0F3005;
+    --coloursix: #A31313;
+    --colourseven: #23700C;
     --main-color: var(--colourone);
     --main-secondary-color: var(--colourtwo);
     --background-color: var(--colourfive);
