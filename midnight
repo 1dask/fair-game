@@ -21,7 +21,7 @@
     --text-dark-highlight-color: var(--colourtwo);
     --button-color: var(--colourone);
     --button-hover-color: var(--colourthree);
-    --button-hover-background-color: #c63469cc;
+    --button-hover-background-color: var(--colourfour);
     --you-color: var(--colourfive);
     --you-background-color: var(--colourfour);
     --promoted-color: var(--colourthree);
