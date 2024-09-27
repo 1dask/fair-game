@@ -5,6 +5,7 @@
     --colourfour: #DBE35C;
     --colourfive: #020408;
     --coloursix: #A32651;
+    --colourseven: #0F3005;
     --main-color: var(--colourone);
     --main-secondary-color: var(--colourtwo);
     --background-color: var(--colourfive);
@@ -47,10 +48,10 @@
 :root.midnight body {
     background-size: cover;
     background-repeat: no-repeat;
-    text-shadow: 0px 0px 5px #83c0ce;
+    text-shadow: 0px 0px 1px var(--colourseven);
 }
 :root.midnight .btn {
-    text-shadow: 0px 0px 1px #83c0ce;
+    text-shadow: 0px 0px 1px var(--colourseven);
     background-color: #c5346966;
 }
 :root.midnight .option-section[data-v-87f35b2c] {
