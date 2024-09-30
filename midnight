@@ -1,11 +1,11 @@
 :root.midnight {
-    --colour-main: #CCAB54;
-    --colour-other: #4E4075;
+    --colour-main: #F2D030;
+    --colour-other: #68559C;
     --colour-text: #5B8EC9;
     --colour-select: #E340C9;
     --colour-back: #020408;
-    --colour-promoted: #A31313;
-    --colour-shadow: #cccccc;
+    --colour-promoted: #C71717;
+    --colour-shadow: #ffffff;
     --colour-navbar: #59e7e7;
 
     --colour-best: #80ff80;
@@ -54,10 +54,10 @@
 :root.midnight body {
     background-size: cover;
     background-repeat: no-repeat;
-    text-shadow: 0px 0px 1px var(--colour-shadow);
+    text-shadow: 2px 2px 2px var(--colour-shadow);
 }
 :root.midnight .btn {
-    text-shadow: 0px 0px 1px var(--colour-shadow);
+    text-shadow: 2px 2px 2px var(--colour-shadow);
     background-color: #c5346966;
 }
 :root.midnight .option-section[data-v-87f35b2c] {
