@@ -1,49 +1,30 @@
-:root.midnight {
+:root.cyberpunk {
 
-    --colourone: #5573DB;
-    --colourtwo: #002791;
-    --colourthree: #e3e2c2;
-    --colourfour: #6600A3;
-    --colourfive: #03001F;
-    --coloursix: #02A4C4;
-    --colourseven: #0038D1;
-
+    --colourone: #6829FF;
+    --colourtwo: #05d9e8;
+    --colourthree: #d1f7ff;
+    --colourfour: #005678;
+    --colourfive: #01012b;
+    --coloursix: #d6ff2a;
+    --colourseven: #2affbe;
     
     --main-color: var(--colourone);
     --main-secondary-color: var(--colourtwo);
     --background-color: var(--colourfive);
     --background-dark-color: var(--colourfive);
     --background-light-color: var(--colourfive);
-    --placeholder-color: var(--colourthree);
     --item-selected-color: var(--colourfour);
-    --eta-best: var(--colourthree);
-    --eta-mid: #F3B700;
-    --eta-worst: #ff6201;
     --text-color: var(--colourthree);
-    --text-light-highlight-color: var(--colourseven);
-    --text-dark-highlight-color: var(--colourtwo);
-    --button-color: var(--colourone);
-    --button-hover-color: var(--colourthree);
-    --button-hover-background-color: var(--coloursix);
-    --you-color: var(--colourfive);
-    --you-background-color: var(--colourfour);
-    --promoted-color: var(--colourthree);
-    --promoted-background-color: var(--coloursix);
-    --header-color: var(--colourone);
-    --navbar-color: var(--colourfive);
-    --offcanvas-background-color: var(--colourfive);
-    --link-hover-color: var(--colourthree);
-    --link-color: var(--colourthree);
-}
-:root.midnight .ladder-row[data-v-b13887f0] {
-    height: 70%;
-    max-height: 70%;
-}
-:root.midnight .col-6.tempInfo[data-v-260edd08] {
-    margin-top: -15%;
-    margin-left: 35%;
-    margin-bottom: -10%;
-}
-:root.midnight .col-6 {
-    width: 110%;
+    --text-placeholder-color: var(--text-color);
+    --eta-best-color: var(--colourseven);
+    --eta-mid-color: var(--coloursix);
+    --eta-worst-color: var(--colourone);
+    --text-light-highlight-color: var(--main-secondary-color);
+    --text-dark-highlight-color: var(--main-color);
+    --ladder-text-promoted-color: var(--colourtwo);
+    --ladder-bg-promoted-color: var(--colourfour);
+    --link-color: var(--main-secondary-color);
+    --link-hover-color: var(--colourfour);
+    --mod-color: var(--main-color);
+    --tooltip-background: var(--colourfour);
 }
