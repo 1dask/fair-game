@@ -6,6 +6,8 @@
     --colourfour: #6600A3;
     --colourfive: #03001F;
     --coloursix: #02A4C4;
+    --colourseven: #0038D1;
+
     
     --main-color: var(--colourone);
     --main-secondary-color: var(--colourtwo);
@@ -18,8 +20,8 @@
     --eta-mid: #F3B700;
     --eta-worst: #ff6201;
     --text-color: var(--colourthree);
-    --text-light-highlight-color: var(--colourtwo);
-    --text-dark-highlight-color: var(--colourtwo);
+    --text-light-highlight-color: var(--colourseven);
+    --text-dark-highlight-color: var(--colourseven);
     --button-color: var(--colourone);
     --button-hover-color: var(--colourthree);
     --button-hover-background-color: var(--coloursix);
