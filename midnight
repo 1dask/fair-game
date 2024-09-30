@@ -54,7 +54,7 @@
 :root.midnight body {
     background-size: cover;
     background-repeat: no-repeat;
-    text-shadow: 0px 0px 5px var(--colour-shadow);
+    text-shadow: 0px 0px 0px var(--colour-shadow);
 }
 :root.midnight .btn {
     text-shadow: 0px 0px 0px var(--colour-shadow);
