@@ -6,6 +6,11 @@
     --colour-back: #020408;
     --colour-promoted: #A31313;
     --colour-shadow: #cccccc;
+    --colour-navbar: #59e7e7;
+
+    --colour-best: #80ff80;
+    --colour-mid: #ffff80;
+    --colour-worst: #ff8080;
 
     --main-color: var(--colour-main);
     --main-secondary-color: var(--colour-other);
@@ -14,9 +19,9 @@
     --background-light-color: var(--colour-back);
     --placeholder-color: var(--colour-text);
     --item-selected-color: var(--colour-select);
-    --eta-best: var(--colour-text);
-    --eta-mid: #c6bc18;
-    --eta-worst: #feb455;
+    --eta-best: var(--colour-best);
+    --eta-mid: var(--colour-mid);
+    --eta-worst: var(--colour-worst);
     --text-color: var(--colour-text);
     --text-light-highlight-color: var(--colour-other);
     --text-dark-highlight-color: var(--colour-other);
@@ -28,7 +33,7 @@
     --promoted-color: var(--colour-text);
     --promoted-background-color: var(--colour-promoted);
     --header-color: var(--colour-main);
-    --navbar-color: #59e7e7dd;
+    --navbar-color: var(--colour-navbar);
     --offcanvas-background-color: var(--colour-back);
     --link-hover-color: var(--colour-text);
     --link-color: var(--colour-text);
