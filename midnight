@@ -1,6 +1,6 @@
-:root.cyberpunk {
+:root.midnight {
 
-    --colourone: #6829FF;
+    --colourone: #965CF2;
     --colourtwo: #05d9e8;
     --colourthree: #d1f7ff;
     --colourfour: #005678;
