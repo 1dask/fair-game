@@ -1,7 +1,7 @@
 :root.midnight {
 
     --colourone: #00488E;
-    --colourtwo: #0040ED;
+    --colourtwo: #0031B5;
     --colourthree: #e3e2c2;
     --colourfour: #6600A3;
     --colourfive: #03001F;
