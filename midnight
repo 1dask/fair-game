@@ -21,7 +21,7 @@
     --eta-worst: #ff6201;
     --text-color: var(--colourthree);
     --text-light-highlight-color: var(--colourseven);
-    --text-dark-highlight-color: var(--colourseven);
+    --text-dark-highlight-color: var(--colourtwo);
     --button-color: var(--colourone);
     --button-hover-color: var(--colourthree);
     --button-hover-background-color: var(--coloursix);
