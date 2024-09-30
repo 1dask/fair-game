@@ -1,36 +1,37 @@
 :root.midnight {
-    --colourone: #CCAB54;
-    --colourtwo: #4E4075;
-    --colourthree: #5B8EC9;
-    --colourfour: #E340C9;
-    --colourfive: #020408;
-    --coloursix: #A31313;
-    --colourseven: #23700C;
-    --main-color: var(--colourone);
-    --main-secondary-color: var(--colourtwo);
-    --background-color: var(--colourfive);
-    --background-dark-color: var(--colourfive);
-    --background-light-color: var(--colourfive);
-    --placeholder-color: var(--colourthree);
-    --item-selected-color: var(--colourfour);
-    --eta-best: var(--colourthree);
+    --colour-main: #CCAB54;
+    --colour-other: #4E4075;
+    --colour-text: #5B8EC9;
+    --colour-select: #E340C9;
+    --colour-back: #020408;
+    --colour-promoted: #A31313;
+    --colour-shadow: #cccccc;
+
+    --main-color: var(--colour-main);
+    --main-secondary-color: var(--colour-other);
+    --background-color: var(--colour-back);
+    --background-dark-color: var(--colour-back);
+    --background-light-color: var(--colour-back);
+    --placeholder-color: var(--colour-text);
+    --item-selected-color: var(--colour-select);
+    --eta-best: var(--colour-text);
     --eta-mid: #c6bc18;
     --eta-worst: #feb455;
-    --text-color: var(--colourthree);
-    --text-light-highlight-color: var(--colourtwo);
-    --text-dark-highlight-color: var(--colourtwo);
-    --button-color: var(--colourone);
-    --button-hover-color: var(--colourthree);
-    --button-hover-background-color: var(--colourfour);
-    --you-color: var(--colourfive);
-    --you-background-color: var(--colourfour);
-    --promoted-color: var(--colourthree);
-    --promoted-background-color: var(--coloursix);
-    --header-color: var(--colourone);
+    --text-color: var(--colour-text);
+    --text-light-highlight-color: var(--colour-other);
+    --text-dark-highlight-color: var(--colour-other);
+    --button-color: var(--colour-main);
+    --button-hover-color: var(--colour-text);
+    --button-hover-background-color: var(--colour-select);
+    --you-color: var(--colour-back);
+    --you-background-color: var(--colour-select);
+    --promoted-color: var(--colour-text);
+    --promoted-background-color: var(--colour-promoted);
+    --header-color: var(--colour-main);
     --navbar-color: #59e7e7dd;
-    --offcanvas-background-color: var(--colourfive);
-    --link-hover-color: var(--colourthree);
-    --link-color: var(--colourthree);
+    --offcanvas-background-color: var(--colour-back);
+    --link-hover-color: var(--colour-text);
+    --link-color: var(--colour-text);
     --bs-body-font-weight: 500;
 }
 :root.midnight .ladder-row[data-v-286006ac] {
@@ -48,10 +49,10 @@
 :root.midnight body {
     background-size: cover;
     background-repeat: no-repeat;
-    text-shadow: 0px 0px 1px var(--colourseven);
+    text-shadow: 0px 0px 1px var(--colour-shadow);
 }
 :root.midnight .btn {
-    text-shadow: 0px 0px 1px var(--colourseven);
+    text-shadow: 0px 0px 1px var(--colour-shadow);
     background-color: #c5346966;
 }
 :root.midnight .option-section[data-v-87f35b2c] {
