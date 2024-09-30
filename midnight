@@ -1,11 +1,11 @@
 :root.midnight {
 
-    --colourone: #008e24;
-    --colourtwo: #a9ce00;
+    --colourone: #00488E;
+    --colourtwo: #0040ED;
     --colourthree: #e3e2c2;
-    --colourfour: #467c04;
-    --colourfive: #000115;
-    --coloursix: #008e2450;
+    --colourfour: #6600A3;
+    --colourfive: #03001F;
+    --coloursix: #02A4C4;
     
     --main-color: var(--colourone);
     --main-secondary-color: var(--colourtwo);
